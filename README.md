@@ -16,4 +16,4 @@ For the final project for [Start2Impact's](https://www.start2impact.it/) Fronten
 I'd like to thank Start2Impact for inspiring me to come this far in my coding journey through their engaging projects. 
 
 ## Links 
-The website can be found at the following link: [Netlify](https://progetto-finale-amna.netlify.app/)
+The website can be found at the following link: [Netlify](https://climate-change-amna.netlify.app/)
