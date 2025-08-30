@@ -15,6 +15,14 @@ export default function Methane(){
   return (
     <section className={styles.stack}>
       <div className={styles.header}>
+        <Helmet>
+          <title>Methane Levels </title>
+          <meta
+          name="description"
+          content="View methane concentration trends over time."
+          />
+        </Helmet>
+
         <h1>Methane (CH₄)</h1>
         <p>Globally averaged, monthly mean methane abundance (ppb).</p>
       </div>

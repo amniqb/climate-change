@@ -15,6 +15,14 @@ export default function NitrousOxide(){
   return (
     <section className={styles.stack}>
       <div className={styles.header}>
+        <Helmet>
+          <title>Nitrous Oxide Trends</title>
+          <meta
+          name="description"
+          content="View nitrous oxide atmospheric concentration data."
+          />
+        </Helmet>
+
         <h1>Nitrous Oxide (N₂O)</h1>
         <p>Globally averaged, monthly mean N₂O abundance (ppb).</p>
       </div>

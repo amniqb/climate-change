@@ -20,6 +20,14 @@ if (data) {
   return (
     <section className={styles.stack}>
       <div className={styles.header}>
+        <Helmet>
+          <title>Arctic Ice Extent</title>
+          <meta
+          name="description"
+          content="View average annual Arctic sea ice extent trends."
+          />
+        </Helmet>
+
         <h1>Arctic Sea Ice Extent</h1>
         <p>Monthly sea ice extent (million km²) since 1979. Lower values indicate reduced ice cover.</p>
       </div>

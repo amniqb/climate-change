@@ -16,6 +16,12 @@ export default function CO2(){
   return (
     <section className={styles.stack}>
       <div className={styles.header}>
+        <Helmet>
+          <title>CO₂ Concentration Trends</title>
+          <meta name="description"
+          content="View atmospheric CO₂ concentration at Mauna Loa."
+          />
+        </Helmet>
         <h1>Atmospheric CO₂</h1>
         <p>Daily global seasonal cycle and trend values at Mauna Loa (ppm). The chart uses the seasonally adjusted trend when present.</p>
       </div>
