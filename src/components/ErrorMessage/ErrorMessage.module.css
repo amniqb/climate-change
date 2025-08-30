@@ -1,0 +1,8 @@
+.box {
+  border: 1px solid #FCA5A5; 
+  background: #FEF2F2;      
+  color: #991B1B;            
+  padding: var(--space-3);
+  border-radius: .75rem;
+  font-size: clamp(0.9rem, 3.5vw, 1rem);
+}

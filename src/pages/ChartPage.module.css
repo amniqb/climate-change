@@ -1,0 +1,15 @@
+.header {
+  margin-bottom: var(--space-4);
+  padding: 0 1rem; 
+}
+
+.header p {
+  max-width: 65ch;
+  font-size: clamp(0.95rem, 3.5vw, 1.05rem);
+}
+
+.stack {
+  display: grid;
+  gap: var(--space-4);
+  padding: 0 1rem; 
+}

@@ -1,0 +1,13 @@
+.shell {
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+.main { padding: var(--space-4) 0; }
+
+
+@media (min-width: 768px) {
+  .main {
+    padding: var(--space-5) 0; 
+  }
+}
