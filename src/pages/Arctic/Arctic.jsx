@@ -8,6 +8,7 @@ import TimeSeriesChart from "../../components/Chart/TimeSeriesChart";
 import styles from "../ChartPage.module.css";
 import { data } from "react-router-dom";
 import colors from "../../styles/colors";
+import { Helmet } from "react-helmet";
 
 
 export default function Arctic(){

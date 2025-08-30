@@ -7,6 +7,7 @@ import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 import TimeSeriesChart from "../../components/Chart/TimeSeriesChart";
 import styles from "../ChartPage.module.css";
 import colors from "../../styles/colors";
+import { Helmet } from "react-helmet";
 
 export default function NitrousOxide(){
   const { data, loading, error } = useFetch(fetchNitrous, []);
